@@ -1,0 +1,239 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>tabs demo</title>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.3/themes/smoothness/jquery-ui.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
+</head>
+<body>
+
+  
+  
+<div class="screen">
+<div id="tabs">
+  <ul>
+     <li><a href="#fragment-1"><span>https://DylanDiepPro.com/   x</span></a></li>
+     <li><a href="#fragment-2"><span>https://diep.cafesom.com/   x</span></a></li>
+     <li><a href="#fragment-3"><span>https://music.plylis.com/   x</span></a></li>
+     <li><a href="#fragment-5"><span>https://early.datesm.com/   x</span></a></li>
+     <li><a href="#fragment-4"><span>https://finder.fruit.com/   x</span></a></li>
+     <li><a href="#fragment-6"><span>https://finalcapston.com/   x</span></a></li>
+   
+    
+  </ul>
+
+  <div id="dialog" title="Welcome Message">
+    <p>Welcome to my portfolio click through the different tabs to view and try some of the different projects I have done.</p>
+  </div>
+
+  <div id="fragment-1">
+    
+    <div class="masking-container">
+        <h1 class="masked-text">Dylan Diep's Portfolio!<h1>
+          <div class="ui-widget">
+            <label for="tags">Search: </label>
+            <input id="tags">
+            <ul id="menu">
+
+              <li><div>About</div></li>
+              <li><div>Contacts</div></li>
+              <li><div>Movies</div></li>
+              <li><div>Music</div></li>
+              <li><div>Game</div></li>
+
+            </ul>
+
+          </div>
+        
+    </div>
+
+
+
+  </div>
+
+
+
+  
+  <div id="fragment-2">
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+    
+  </div>
+
+
+  
+  <div id="fragment-3">
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+  </div>
+
+  <div id="fragment-4">
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+  </div>
+
+  <div id="fragment-5">
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+
+    <iframe height="300" style="width: 100%;" scrolling="no" title="Do Now: JS Arrays &amp; Lists" src="https://codepen.io/Dylan-Diep/embed/EaPRJEz?default-tab=result" frameborder="no" loading="lazy" allowtransparency="true">
+      See the Pen <a href="https://codepen.io/Dylan-Diep/pen/EaPRJEz">
+      Do Now: JS Arrays &amp; Lists</a> by Dylan Diep (<a href="https://codepen.io/Dylan-Diep">@Dylan-Diep</a>)
+      on <a href="https://codepen.io">CodePen</a>.
+    </iframe>
+  </div>
+
+  <div id="fragment-6">
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+  </div>
+
+
+
+
+   <pre><code>$( "#tabs" ).tabs(); </code></pre>
+          <a href="index2.html" class="button-class">
+            Log Out of PC</a>
+</div>
+  </div>
+</body>
+
+<script>
+$( "#tabs" ).tabs();
+
+  $( function() {
+    $( "#dialog" ).dialog();
+  } );
+
+  $( function() {
+    var availableTags = [
+      "Natty",
+      "Haza",
+      "Dylan",
+      "Samster",
+      "Angel",
+      "Domo",
+      "Dylan Diep",
+      "fruitfinder",
+      "finalcapston",
+      "earlydates",
+      "musicplylist",
+      "diepcafesom",
+      "DylanDiepPro"
+    ];
+    $( "#tags" ).autocomplete({
+      source: availableTags
+    });
+  } );
+
+  $( function() {
+    $( "#menu" ).menu();
+  } );
+</script>
+<style>
+#menu{position: relative;
+     left: 51.6%;}
+  .ui-menu { width: 150px; }
+#tags{ position: relative;
+          left: 30%;  
+       visibility: invisible}
+  label{ position: relative;
+  left: 30%;
+    }
+  
+  #tabs{font-size:10px;
+}
+
+  .screen{ background-image: "aero.jpg" ;
+         border-radius: 10px;
+         
+         }
+#fragment-1{   height: 440px;
+           width: 900px;
+           overflow: auto; /* Required for the resize handle to appear */
+           resize: both;
+            overflow-y: auto;
+               border: 30px solid #808080;
+            }
+
+  #fragment-2{  
+  height: 440px;
+  width: 900px;
+  overflow: auto; /* Required for the resize handle to appear */
+  resize: both;
+   overflow-y: auto;
+    border: 30px solid #808080;
+   }
+
+  #fragment-3{ height: 440px;
+             width: 900px;
+             overflow: auto; /* Required for the resize handle to appear */
+             resize: both;
+              overflow-y: auto;
+             border: 30px solid #808080;}
+
+  #fragment-4{ height: 440px;
+   width: 900px;
+   overflow: auto; /* Required for the resize handle to appear */
+   resize: both;
+              overflow-y: auto;
+             border: 30px solid #808080;}
+
+  #fragment-5{ height: 440px;
+   width: 900px;
+   overflow: auto; /* Required for the resize handle to appear */
+   resize: both;
+              overflow-y: auto;
+             border: 30px solid #808080;}
+
+  #fragment-6{ height: 440px;
+   width: 900px;
+   overflow: auto; /* Required for the resize handle to appear */
+   resize: both;
+              overflow-y: auto;
+             border: 30px solid #808080;}
+  
+
+  html,
+  body {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("Dulan Port/aero.jpg") no-repeat center center fixed;
+    background-size: cover;
+    /* Always set a background-color as a fallback */
+    background-color: #cccccc;
+  }
+
+
+  .masked-text {
+      font-size: 5rem;
+      font-weight: bold;
+      color: transparent;
+    text-align: center;
+      background-image: url('Dulan Port/purplepattern.jpg'); 
+      background-size: 200%; /* Enlarged for smooth animation */
+      background-position: 0 50%;
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: animate-background 5s infinite alternate linear;
+  }
+
+  @keyframes animate-background {
+      0% {
+          background-position: 0 50%;
+      }
+      100% {
+          background-position: 100% 50%;
+      }
+  }
+
+
+  
+  </style>
+</body>
+</html>
