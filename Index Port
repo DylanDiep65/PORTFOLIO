@@ -1,0 +1,231 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>tabs demo</title>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
+</head>
+<body>
+
+  
+    <div id="dialog" title="Welcome Message">
+    <p>Welcome to my portfolio click through the different tabs to view and try some of the different projects I have done.</p>
+  </div>
+
+<div class="screen">
+<div id="tabs">
+  <ul>
+     <li><a href="#fragment-1"><span>https://DylanDiepPro.com/   x</span></a></li>
+     <li><a href="#fragment-2"><span>https://diep.cafesom.com/   x</span></a></li>
+     <li><a href="#fragment-3"><span>https://music.plylis.com/   x</span></a></li>
+     <li><a href="#fragment-4"><span>https://early.datesm.com/   x</span></a></li>
+     <li><a href="#fragment-5"><span>https://finder.fruit.com/   x</span></a></li>
+     <li><a href="#fragment-6"><span>https://finalcapston.com/   x</span></a></li>
+   
+    
+  </ul>
+
+
+  <div id="fragment-1">
+    
+    <div class="masking-container">
+        <h1 class="masked-text">Dylan Diep's Portfolio!<h1>
+          <div class="ui-widget">
+            <label for="tags">Search: </label>
+            <input id="tags">
+            
+
+          </div>
+        
+    </div>
+
+
+
+  </div>
+
+
+
+  
+  <div id="fragment-2">
+    <div class="grid-container1">
+    <header class="header1">
+      <h1>Logo and Page Title</h1>
+      <p>This section should stretch across the top.</p>
+    </header>
+
+    <nav class="nav1">
+      <h2>Menu</h2>
+      <ul>
+        <li>Home</li>
+        <li>Projects</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
+
+    <main class="main1">
+      <h2>Main Content</h2>
+      <p>
+        This section should be larger than the menu.
+      </p>
+      <p>
+        It should appear in the middle of the layout.
+      </p>
+    </main>
+
+    <aside class="aside1">
+      <h2>Additional Content</h2>
+      <p>
+        This section should appear on the right side.
+      </p>
+    </aside>
+
+    <footer class="footer1">
+      <p>Copyright and contact information</p>
+    </footer>
+  </div>
+    
+  </div>
+
+
+  
+  <div id="fragment-3">
+    <div class="grid-container2">
+    <header class="header2">
+      <h1>Logo and Page Title</h1>
+      <p>This section should stretch across the top.</p>
+    </header>
+
+    <nav class="nav2">
+      <h2>Menu</h2>
+      <ul>
+        <li>Home</li>
+        <li>Projects</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
+
+    <main class="main2">
+      <h2>Main Content</h2>
+      <p>
+        This section should be larger than the menu.
+      </p>
+      <p>
+        It should appear in the middle of the layout.
+      </p>
+    </main>
+
+    <aside class="aside2">
+      <h2>Additional Content</h2>
+      <p>
+        This section should appear on the right side.
+      </p>
+    </aside>
+
+    <footer class="footer2">
+      <p>Copyright and contact information</p>
+    </footer>
+  </div>
+  </div>
+
+  <div id="fragment-4">
+   <div class="grid-container2">
+    <header class="header3">
+      <h1>Logo and Page Title</h1>
+      <p>This section should stretch across the top.</p>
+    </header>
+
+    <nav class="nav3">
+      <h2>Menu</h2>
+      <ul>
+        <li>Home</li>
+        <li>Projects</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
+
+    <main class="main3">
+      <h2>Main Content</h2>
+      <p>
+        This section should be larger than the menu.
+      </p>
+      <p>
+        It should appear in the middle of the layout.
+      </p>
+    </main>
+ <aside class="aside3">
+      <h2>Additional Content</h2>
+      <p>
+        This section should appear on the right side.
+      </p>
+    </aside>
+
+    <footer class="footer3">
+      <p>Copyright and contact information</p>
+    </footer>
+  </div>
+  </div>
+
+  <div id="fragment-5">
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+
+    <iframe height="300" style="width: 100%;" scrolling="no" title="Do Now: JS Arrays &amp; Lists" src="https://codepen.io/Dylan-Diep/embed/EaPRJEz?default-tab=result" frameborder="no" loading="lazy" allowtransparency="true">
+      See the Pen <a href="https://codepen.io/Dylan-Diep/pen/EaPRJEz">
+      Do Now: JS Arrays &amp; Lists</a> by Dylan Diep (<a href="https://codepen.io/Dylan-Diep">@Dylan-Diep</a>)
+      on <a href="https://codepen.io">CodePen</a>.
+    </iframe>
+  </div>
+
+  <div id="fragment-6">
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+  </div>
+
+
+
+
+   <pre><code>$( "#tabs" ).tabs(); </code></pre>
+          <a href="index2.html" class="button-class">
+            Log Out of PC</a>
+</div>
+  </div>
+</body>
+
+<script>
+$( "#tabs" ).tabs();
+
+  $( function() {
+    $( "#dialog" ).dialog();
+  } );
+
+  $( function() {
+    var availableTags = [
+      "Natty",
+      "Haza",
+      "Dylan",
+      "Samster",
+      "Angel",
+      "Domo",
+      "Dylan Diep",
+      "fruitfinder",
+      "finalcapston",
+      "earlydates",
+      "musicplylist",
+      "diepcafesom",
+      "DylanDiepPro"
+    ];
+    $( "#tags" ).autocomplete({
+      source: availableTags
+    });
+  } );
+
+  $( function() {
+    $( "#menu" ).menu();
+  } );
+</script>
+
+</body>
+</html>
