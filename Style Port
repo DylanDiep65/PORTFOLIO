@@ -1,0 +1,244 @@
+#menu{position: relative;
+   left: 51.6%;}
+.ui-menu { width: 150px; }
+#tags{ position: relative;
+        left: 30%;  
+     visibility: invisible}
+label{ position: relative;
+left: 30%;
+  }
+
+#tabs{font-size:10px;
+}
+
+.screen{ background-image: "aero.jpg" ;
+       border-radius: 10px;
+
+       }
+#fragment-1{   height: 440px;
+         width: 900px;
+         overflow: auto; /* Required for the resize handle to appear */
+         resize: both;
+          overflow-y: auto;
+             border: 30px solid #808080;
+          }
+
+#fragment-2{  
+height: 440px;
+width: 900px;
+overflow: auto; /* Required for the resize handle to appear */
+resize: both;
+ overflow-y: auto;
+  border: 30px solid #808080;
+ }
+
+#fragment-3{ height: 440px;
+           width: 900px;
+           overflow: auto; /* Required for the resize handle to appear */
+           resize: both;
+            overflow-y: auto;
+           border: 30px solid #808080;}
+
+#fragment-4{ height: 440px;
+ width: 900px;
+ overflow: auto; /* Required for the resize handle to appear */
+ resize: both;
+            overflow-y: auto;
+           border: 30px solid #808080;}
+
+#fragment-5{ height: 440px;
+ width: 900px;
+ overflow: auto; /* Required for the resize handle to appear */
+ resize: both;
+            overflow-y: auto;
+           border: 30px solid #808080;}
+
+#fragment-6{ height: 440px;
+ width: 900px;
+ overflow: auto; /* Required for the resize handle to appear */
+ resize: both;
+            overflow-y: auto;
+           border: 30px solid #808080;}
+
+
+html,
+body {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("Dulan Port/aero.jpg") no-repeat center center fixed;
+  background-size: cover;
+  /* Always set a background-color as a fallback */
+  background-color: #cccccc;
+}
+
+
+.masked-text {
+    font-size: 5rem;
+    font-weight: bold;
+    color: transparent;
+  text-align: center;
+    background-image: url('Dulan Port/purplepattern.jpg'); 
+    background-size: 200%; /* Enlarged for smooth animation */
+    background-position: 0 50%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate-background 5s infinite alternate linear;
+}
+
+@keyframes animate-background {
+    0% {
+        background-position: 0 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+.header1 {
+  grid-area: heading1;
+  background-color: #cfe2ff;
+  padding: 20px;
+  border: 2px solid #333;
+}
+
+.nav1 {
+  grid-area: menu1;
+  background-color: #ffe5b4;
+  padding: 20px;
+  border: 2px solid #333;
+}
+
+.main1 {
+  grid-area: content1;
+  background-color: white;
+  padding: 20px;
+  border: 2px solid #333;
+}
+
+.aside1 {
+  grid-area: right1;
+  background-color: #e2d5ff;
+  padding: 20px;
+  border: 2px solid #333;
+}
+
+.footer1 {
+  grid-area: contact1;
+  background-color: #d4edda;
+  padding: 20px;
+  border: 2px solid #333;
+}
+
+.grid-container1 {
+   display: grid; 
+  grid-template-columns: 1fr 3fr 2fr; 
+grid-template-areas:
+    "heading1 heading1 heading1 heading1 heading1 heading1"
+    "menu1 content1 content1 content1 right1 right1"
+    "menu1  contact1 contact1 contact1 contact1 contact1";
+  */
+
+ 
+
+  /* gap: NUMBERpx; */
+}
+h1, h2 {
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 10px;
+content-align: center;
+  
+}
+
+ul {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+ .header2 {
+  grid-area: heading2;
+  background-color: #cfe2ff;
+  padding: 20px;
+  border: 2px solid #333;
+}
+
+.nav2 {
+  grid-area: menu2;
+  background-color: #ffe5b4;
+  padding: 20px;
+  border: 2px solid #333;
+}
+
+.main2 {
+  grid-area: content2;
+  background-color: white;
+  padding: 20px;
+  border: 2px solid #333;
+}
+
+.aside2 {
+  grid-area: right2;
+  background-color: #e2d5ff;
+  padding: 20px;
+  border: 2px solid #333;
+}
+
+.footer2 {
+  grid-area: contact2;
+  background-color: #d4edda;
+  padding: 20px;
+  border: 2px solid #333;
+}
+
+.grid-container2 {
+   display: grid; 
+  grid-template-columns: 1fr 3fr 2fr; 
+grid-template-areas:
+    "menu2 heading2 heading2 heading2 heading2 right2"
+    "menu2 content2 content2 content2 content2 right2"
+    "menu2  contact2 contact2 contact2 contact2 right2";
+
+
+.header3 {
+  grid-area: heading3;
+  background-color: #cfe2ff;
+  padding: 20px;
+  border: 2px solid #333;
+}
+
+.nav3 {
+  grid-area: menu3;
+  background-color: #ffe5b4;
+  padding: 20px;
+  border: 2px solid #333;
+}
+
+.main3 {
+  grid-area: content3;
+  background-color: white;
+  padding: 20px;
+  border: 2px solid #333;
+}
+
+.footer3 {
+  grid-area: contact3;
+  background-color: #d4edda;
+  padding: 20px;
+  border: 2px solid #333;
+}
+
+.grid-container3 {
+   display: grid; 
+  grid-template-columns: 1fr 1fr; 
+grid-template-areas:
+    "heading3 heading3"
+    "menu3 content3"
+    "contact3 contact3";
